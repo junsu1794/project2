@@ -21,12 +21,12 @@ https://www.figma.com/proto/rIQW5dXN1ueNczkbY4vj0z/%EB%B9%99%EA%B7%B8%EB%A0%88?p
 
 > 빙그레를 제작하기 위해 정보구조도를 작성해 보았습니다.
 
-## 스타일가이드
+## 컬러계획표
 
-![](https://user-images.githubusercontent.com/140911145/281602212-cfa33fd2-04e7-4144-bc15-297c07d061b0.png)
+![](https://user-images.githubusercontent.com/140911145/282346841-a94066c3-6d76-4c97-b5bc-68a3edb92e99.png)
 
 ## 와이어프레임
-![](https://user-images.githubusercontent.com/140911145/281602295-42e8ea88-849f-4e9c-a132-172e26b509b4.png)
+![](https://user-images.githubusercontent.com/140911145/282346848-22fa9931-e461-42f3-a45b-009ca99346b7.png)
 
 
 
