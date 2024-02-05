@@ -11,18 +11,23 @@ $('.close').on('click', function (e) {
 	// $('.overlay').removeClass('open');
 });
 
+
+
 //전체 메뉴
-$('.tap').on('click', function (e) {
-	e.preventDefault();
-	/* $('.popup').css('display','block'); */
-	$('.allmenu').show();
-	// $('.overlay').addClass('open');
+$(document).ready(function(){
+    $('.tap').on('click', function (e) {
+        e.preventDefault();
+        $('.allmenu').show();
+    });
+
+    $('.tapclose').on('click', function (e) {
+        e.preventDefault();
+        $('.allmenu').hide();
+    });
 });
-$('.tapclose').on('click', function (e) {
-	e.preventDefault();
-	$('.allmenu').hide();
-	// $('.overlay').removeClass('open');
-});
+
+
+
 
 $('.taste_box').bxSlider({
 	slideWidth: 250,

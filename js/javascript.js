@@ -25,18 +25,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-const menuItems = document.querySelectorAll('.tap_bot');
-menuItems.forEach((menuItem) => {
-    menuItem.addEventListener('click', () => {
-        // 클릭한 메뉴 아이템의 하위 메뉴를 토글하여 보이거나 숨기기
-        const submenu = menuItem.nextElementSibling;
-        if (submenu.style.display === 'block') {
-            submenu.style.display = 'none';
-        } else {
-            submenu.style.display = 'block';
-        }
+
+window.onload = function() {
+    const menuItems = document.querySelectorAll('.tap_bot');
+    menuItems.forEach((menuItem) => {
+        menuItem.addEventListener('click', () => {
+            const submenu = menuItem.nextElementSibling;
+            if (submenu.style.display === 'block') {
+                submenu.style.display = 'none';
+            } else {
+                submenu.style.display = 'block';
+            }
+        });
     });
-});
+}
+
 
 // <!-- Google tag (gtag.js) -->
 window.dataLayer = window.dataLayer || [];
